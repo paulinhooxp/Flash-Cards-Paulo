@@ -43,6 +43,16 @@ body{
  .cartao_conteudo p{
     margin-top: 1rem;
     padding: 2rem;
+ }
+
+ .cartao__conteudo__pergunta p{
+    color: var(--text-color);
+    font-weight: 500;
+ }
+ .cartao__conteudo__repostap{
+    color: var(--card-back-color);
+    front: weight 700px;
+
 
  }
 
