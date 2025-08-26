@@ -1,3 +1,12 @@
+ :root{
+    --text-color: #dbe4ef;
+    --card-front-color: #144480;
+    ---card-back-color:#00f4bf;
+ }
+
+
+
+
 body{
     background-color: bisque;
     font-family: "Bai Jamjuree", sans-serif;
@@ -31,7 +40,7 @@ body{
  }
 footer{
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: white;
     bottom: 0;
     position: fixed;
     width: 100%;
