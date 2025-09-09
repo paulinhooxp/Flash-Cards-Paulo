@@ -5,7 +5,42 @@ criaCartao(
 )
 
 criaCartao(
-    'programação',
-    'O que é Python',
-    'O Python é uma linguagem de programação'
+    'geografia',
+    'Qual é o maior país do mundo em extensão territorial?'
+    'Rússia'
 )
+
+criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
+
+    criaCartao(
+    'categoria',
+    'pergunta',
+    'resposta'
