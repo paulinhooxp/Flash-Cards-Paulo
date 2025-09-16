@@ -6,22 +6,22 @@ criaCartao(
 )
 
 criaCartao(
-    'categoria',
+    'conhecimentos gerais',
     'Quem pintou a obra "Mona Lisa'?,
     'Leonardo Da Vinci'
 
     criaCartao(
-    '',
+    'conhecimento histórico',
     'Em que ano o homem pisou na Lua pela primeira vez?',
     '1969'
 
     criaCartao(
-    'categoria',
+    'química',
     'Qual é o elemento químico representado pela sigla "O"?',
     'Oxigênio'
 
     criaCartao(
-    'categoria',
+    'geografia',
     'Quantos estados tem o Brasil?',
     ' 26 estados (mais o Distrito Federal'
 
@@ -31,22 +31,22 @@ criaCartao(
     'ottawa'
 
     criaCartao(
-    'categoria',
+    'livros'
     'Quem escreveu a peça "Romeu e Julieta"?',
     'William Shakespeare'
 
     criaCartao(
-    'categoria',
+    'geografia',
     'Qual é o rio mais extenso do mundo?',
     ' Rio Nilo (há debates com o Amazonas, mas o Nilo é tradicionalmente aceito)'
 
     CriaCartao(
-    'categoria',
+    'geografia',
     'Em que continente fica o deserto do Saara?',
     'África'
 
     CriaCartao(
-    'categoria',
+    'conhecimentos gerais',
     'Qual é o idioma mais falado no mundo atualmente (como língua nativa)?',
     'Mandarim (Chinês)'
 
