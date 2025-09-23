@@ -1,7 +1,9 @@
  :root{
     --text-color: #dbe4ef;
     --card-front-color: #144480;
-    ---card-back-color:#00f4bf;
+    --card-back-color:#00f4bf;
+    --cor-da-borda:#1509f5;
+    --cor-fundo-cartao: #ffffff;
  }
 
 
@@ -28,7 +30,7 @@ body{
  }
 
  .cartao_conteudo{
-    background-color: var(--card-front-color);
+    background-color: var(--card-front-color);Idle Mining Empire
     text-align: center;
     height: 100%;
  }
@@ -48,12 +50,10 @@ body{
  .cartao_conteudo p{
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: ;
  }
 
  .cartao__conteudo__pergunta p{
-    color: var(--text-color);
-    font-weight: 500;
- }
  .cartao__conteudo__repostap{
     color: var(--card-back-color);
     front: weight 700px;
