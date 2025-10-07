@@ -1,52 +1,59 @@
-
 criaCartao(
-    'geografia',
-    'Qual é o maior país do mundo em extensão territorial?'
-    'Rússia'
+'Geografia',
+'Qual é o maior país do mundo em tensão territorial?',
+'Rússia'
 )
 
 criaCartao(
-    'conhecimentos gerais',
-    'Quem pintou a obra "Mona Lisa'?,
-    'Leonardo Da Vinci'
+'Conhecimentos gerias',
+'Quem pintou a obra "Mona Lisa"?',
+'Leonardo da Vinci'
+)
 
-    criaCartao(
-    'conhecimento histórico',
-    'Em que ano o homem pisou na Lua pela primeira vez?',
-    '1969'
+criaCartao(
+'conhecimentos históricos',
+'Em que ano o homem pisou na Lua pela primeira vez?',
+'1969'
+)
 
-    criaCartao(
-    'química',
-    'Qual é o elemento químico representado pela sigla "O"?',
-    'Oxigênio'
+criaCartao(
+'Quimíca',
+'Qual é o elemento químico representado pela sigla "O"?',
+'Oxigênio'
+)
 
-    criaCartao(
-    'geografia',
-    'Quantos estados tem o Brasil?',
-    ' 26 estados (mais o Distrito Federal'
+criaCartao(
+'Geografia',
+'Quantos estados tem o Brasil?',
+'26 Estados e mais um distrito federal'
+)
 
-    criaCartao(
-    'geografia',
-    'Qual é a capital do Canadá?',
-    'ottawa'
+criaCartao(
+'geografia',
+'Qual é a capital do Canadá?',
+​​​​'Ottawa'
+)
 
-    criaCartao(
-    'livros'
-    'Quem escreveu a peça "Romeu e Julieta"?',
-    'William Shakespeare'
+criaCartao(
+'Livros',
+'Quem escreveu a peça "Romeu e Julieta"?',
+'William Shakespeare'
+)
 
-    criaCartao(
-    'geografia',
-    'Qual é o rio mais extenso do mundo?',
-    ' Rio Nilo (há debates com o Amazonas, mas o Nilo é tradicionalmente aceito)'
+criaCartão(
+'Geografia',
+'Qual é o rio mais extenso do mundo?',
+'Rio Nilo'
+)
 
-    CriaCartao(
-    'geografia',
-    'Em que continente fica o deserto do Saara?',
-    'África'
+criaCartao(
+'Geografia',
+'Em que continente fica o deserto do Saara?',
+'Àfrica'
+)
 
-    CriaCartao(
-    'conhecimentos gerais',
-    'Qual é o idioma mais falado no mundo atualmente (como língua nativa)?',
-    'Mandarim (Chinês)'
-
+criaCartao(
+'Conhecimentos gerais',
+'Qual é o idioma mais falado no mundo atualmente (como língua nativa)?',
+'Mandarim'
+)
