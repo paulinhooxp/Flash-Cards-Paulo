@@ -1,100 +1,98 @@
 :root {
---text-color: #dbe4ef;
---card-front-color: #ff00b3;
---card-back-color: #000000;
---cor-da-borda: hsl(320, 100%, 48%);
---cor-fundo-cartao: #ffffff;
+    --text-color: #dbe4ef;
+    --card-front-color: #ff00b3;
+    --card-back-color: #000000;
+    --cor-da-borda: hsl(320, 100%, 48%);
+    --cor-fundo-cartao: #ffffff;
 }
 
 body {
-background-color: rgb(255, 181, 251);
-font-family: "Bai Jamjuree", sans-serif;
+    background-color: rgb(255, 181, 251);
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 #container {
-display: flex;
-flex-wrap:wrap;
-justify-content: space-between;
-padding: 4rem;
-gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao {
-margin: 1rem 1rem;
-height: 20rem;
-flex-grow: 1;
-flex-basis: calc(33% - 6rem);
+    margin: 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo {
-cor de fundo: var(--card-front-color);
-alinhamento de texto: centro;
-altura: 100%;
-estilo de transformação: preserve-3d;
-transição: transformar 300 ms de facilidade de entrada;
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in;
 }
 
 .cartao__conteudo h3 {
-cor: var(--text-color);
-borda: 1px var sólido (--text-color);
-alinhamento de texto: esquerda;
-preenchimento: 0,5rem;
-posição: absoluta;
-margem: 0,6rem;
-raio da borda: 0,6rem;
-tamanho da fonte: 1vw;
-visibilidade backface: oculta;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
 }
 
 .cartao__conteudo p {
-margin-top: 1rem;
-preenchimento: 2rem;
-margem superior: 4rem;
-tamanho da fonte: 1,7vw;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    font-size: 1.7vw;
 }
 
 .cartao__conteudo__pergunta p {
-cor: var(--text-color);
-peso da fonte: 500;
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 .cartao__conteudo__resposta p {
-color: var(--card-back-color);
-peso da fonte: 700;
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 
 .cartao.active .cartao__conteudo {
-transform: rotacionarY(180deg);
+    transform: rotateY(180deg);
 }
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
-backface-visibility: oculto;
-posição: absoluta;
-altura: 100%;
-largura: 100%;
-dimensionamento de caixa: caixa de borda;
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta {
-transform: girarY(180deg);
-cor de fundo: var(--cor-fundo-cartão);
-borda: 4px var sólido(--cor-da-borda);
+    transform: rotateY(180deg);
+    background-color: var(--cor-fundo-cartao);
+    border: 4px solid var(--cor-da-borda);
 }
 
-
-rodapé {
-cor de fundo: preto;
-cor:branco;
-inferior: 0;
-posição: fixa;
-largura: 100%;
-altura: 2rem;
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
 }
 
-rodapé p {
-alinhamento do texto: centro;
-tamanho da fonte: 1rem;
-margem superior: 0,5rem;
-
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
